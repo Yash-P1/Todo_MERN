@@ -101,6 +101,8 @@ class App extends Component {
         <button>Submit</button>
       </form>
 
+      <div><h2>Data retrieved from the Database!</h2></div>
+
       <div className='todo'>
         {this.displayToDo(this.state.assignedTask)}
       </div>
